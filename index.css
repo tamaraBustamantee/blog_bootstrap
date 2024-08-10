@@ -1,0 +1,15 @@
+.bg-cover {
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner {
+    height: 300px;
+    background-color: #000;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,28 @@
+.text-tahiti-400 {
+    color: #f472b6;
+}
+
+.bg-tahiti-600 {
+    background-color: #db2777;
+}
+
+.bg-tahiti-500 {
+    background-color: #ec4899;
+}
+
+.bg-tahiti-200 {
+    background-color: #fbcfe8;
+}
+
+.text-shadow-lg {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.hover-shadow-xl:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.hover-transform:hover {
+    transform: translateY(-8px) scale(1.05);
+    transition: transform 0.3s ease;
+}

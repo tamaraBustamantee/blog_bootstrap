@@ -1,0 +1,34 @@
+.bg-cover {
+    background-size: cover !important;
+}
+
+.bg-center {
+    background-position: center !important;
+}
+
+.h-64 {
+    height: 16rem !important;
+}
+
+.h-40 {
+    height: 10rem !important;
+}
+
+.object-contain {
+    object-fit: contain !important;
+}
+
+.card-img-top {
+    height: 10rem;
+    object-fit: contain;
+}
+
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-0.5rem) scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}

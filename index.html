@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Programación</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="colors.css" rel="stylesheet">
+</head>
+
+<body class="bg-light text-dark">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-tahiti-600">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mi Blog</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://freecodecamp.org/" target="_blank">FreeCodeCamp</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-cover bg-center h-64" style="background-image: url('assets/banner.jpg')">
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+            <h1 class="display-5 font-weight-bold text-tahiti-400 text-shadow-lg">Bienvenido a Mi Blog de Programación</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-5">
+        <div class="row">
+
+            <!-- Post Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100 transition transform">
+                    <img src="assets/python.png" class="card-img-top object-contain" alt="Python">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Con su sintaxis clara y legible, es ideal tanto para principiantes como para desarrolladores experimentados. Python se utiliza ampliamente en desarrollo web, análisis de datos, inteligencia artificial, automatización y mucho más.</p>
+                        <a href="python.html" class="btn btn-link text-primary p-0">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100 transition transform">
+                    <img src="assets/java.webp" class="card-img-top object-contain" alt="Java">
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">Java es un lenguaje de programación orientado a objetos, conocido por su portabilidad entre plataformas gracias a la Máquina Virtual de Java (JVM). Es ampliamente utilizado en aplicaciones empresariales, desarrollo de aplicaciones Android, y sistemas backend robustos.</p>
+                        <a href="java.html" class="btn btn-link text-primary p-0">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post Card -->
+            <div class="col-md-4 mb-4 transition transform">
+                <div class="card shadow-sm h-100">
+                    <img src="assets/golang.webp" class="card-img-top object-contain" alt="Go">
+                    <div class="card-body">
+                        <h5 class="card-title">Go</h5>
+                        <p class="card-text">Go, también conocido como Golang, es un lenguaje de programación desarrollado por Google. Es reconocido por su eficiencia y concurrencia, siendo ideal para la construcción de servidores web, sistemas distribuidos y aplicaciones a gran escala. Go combina la simplicidad y seguridad del código con un rendimiento elevado.</p>
+                        <a href="go.html" class="btn btn-link text-primary p-0">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post Card -->
+            <div class="col-md-4 mb-4 transition transform">
+                <div class="card shadow-sm h-100">
+                    <img src="assets/html.png" class="card-img-top object-contain" alt="HTML">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">HTML (HyperText Markup Language) es el estándar para crear y estructurar páginas web. Utilizado para definir el contenido y la estructura básica de una página web, HTML permite incrustar imágenes, enlaces, vídeos y otros elementos multimedia, sirviendo como la columna vertebral del contenido web.</p>
+                        <a href="html.html" class="btn btn-link text-primary p-0">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post Card -->
+            <div class="col-md-4 mb-4 transition transform">
+                <div class="card shadow-sm h-100">
+                    <img src="assets/css.png" class="card-img-top object-contain" alt="CSS">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para describir la presentación de un documento escrito en HTML o XML. CSS controla el diseño visual y la apariencia de las páginas web, permitiendo la separación del contenido y el estilo, y asegurando un diseño más atractivo y consistente.</p>
+                        <a href="css.html" class="btn btn-link text-primary p-0">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post Card -->
+            <div class="col-md-4 mb-4 transition transform">
+                <div class="card shadow-sm h-100">
+                    <img src="assets/js.webp" class="card-img-top object-contain" alt="JavaScript">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">JavaScript es un lenguaje de programación interpretado, esencial para el desarrollo web interactivo. Se utiliza para crear dinámicas en las páginas web, como actualizar contenido en tiempo real, animaciones, y la gestión de eventos. Junto con HTML y CSS, JavaScript es una de las tecnologías fundamentales de la web.</p>
+                        <a href="javascript.html" class="btn btn-link text-primary p-0">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Contact Form -->
+    <section class="container my-5">
+        <h2 class="font-weight-bold mb-4">Contáctanos</h2>
+        <form class="bg-white p-5 rounded-lg shadow-sm">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" class="form-control" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Tu email">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" class="form-control" rows="3" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn text-white bg-tahiti-500">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-tahiti-600 text-white text-center py-4">
+        <div class="container">
+            &copy; 2024 Mi Blog de Programación. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

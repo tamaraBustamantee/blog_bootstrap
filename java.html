@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java - Blog de Programación</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="colors.css" rel="stylesheet">
+</head>
+
+<body class="bg-light text-dark">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-tahiti-600">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mi Blog</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://freecodecamp.org/" target="_blank">FreeCodeCamp</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="banner bg-cover text-white" style="background-image: url('assets/banner-java.jpg')">
+        <div class="container h-100 d-flex justify-content-center align-items-center"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-5">
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+            <h2 class="font-weight-bold mb-4">Introducción a Java</h2>
+            <p class="text-secondary mb-4">Java es un lenguaje de programación de propósito general, concurrente, orientado a objetos y basado en clases. Fue diseñado para tener la menor cantidad posible de dependencias de implementación. Esto permite que los desarrolladores escriban el código una vez y lo ejecuten en cualquier lugar (WORA), lo que significa que el código Java puede ejecutarse en todas las plataformas que soportan Java sin necesidad de recompilación.</p>
+            <h3 class="font-weight-bold mb-2 mt-4">Tabla de Información</h3>
+            <table class="table table-bordered">
+                <thead class="bg-tahiti-200">
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Java</td>
+                        <td>Lenguaje de programación de propósito general, concurrente, orientado a objetos y basado en clases.</td>
+                    </tr>
+                    <tr>
+                        <td>Spring</td>
+                        <td>Framework para desarrollo de aplicaciones empresariales en Java.</td>
+                    </tr>
+                    <tr>
+                        <td>Hibernate</td>
+                        <td>Framework de mapeo objeto-relacional para Java.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div id="carouselExampleIndicators" class="carousel slide mt-4" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/aplicaciones-Java.jpg" class="d-block w-100" alt="Dibujando">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/spring-data.png" class="d-block w-100" alt="Framework">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/java-app.jpg" class="d-block w-100" alt="Esquema">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/proyecto-java.png" class="d-block w-100" alt="Proyecto">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-tahiti-600 text-white text-center py-4 mt-5">
+        <div class="container">
+            &copy; 2024 Mi Blog de Programación. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
